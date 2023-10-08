@@ -1,0 +1,118 @@
+.kidzworld{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header{
+    background-image: url("https://github.com/Kalvium-Program/kidz-world-html-boilerplate/blob/main/assets/kw-background.png?raw=true");
+    background-size: 100%;
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 70px;
+}
+.font{
+    font-size: 80px;
+    font-weight: 400;
+}
+.new{
+    font-size: 25px;
+}
+.cart{
+    display: flex;
+    justify-content:end;
+    align-items: end;
+}
+.books, .games, .handmade{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 60px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: rgb(74, 148, 231);
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 7px;
+}
+.kri{
+    border-radius: 100%;
+
+}
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 15px;
+}
+.right{
+    position: relative;
+    top: 50px;
+    margin-bottom: 10px;
+}
+.right, .left{
+    margin: 30px;
+}
+.books{
+    margin-top: 40px;
+}
+.games, .handmade{
+    margin-top: 110px;
+}
+footer{
+    margin-top: 140px;
+}
+.krishti{
+    text-align: end;
+    padding: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.krishti1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+}
+.left1{
+    padding: 5px;
+}
+.name{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.info{
+    color: gray;
+    font-size: 20px;
+}
+.price-div{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
